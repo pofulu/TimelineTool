@@ -1,6 +1,6 @@
 # TimelineTool
 
-You can change unity timeline clips realtime very easy by TimelineTool.cs:
+You can change Unity Timeline clips realtime very easy by TimelineTool.cs:
 ```
 public PlayableDirector playableDirector;
 public CinemachineVirtualCameraBase vCam1;
