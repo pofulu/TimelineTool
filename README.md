@@ -3,7 +3,9 @@
 You can change unity timeline clips realtime very easy by TimelineTool.cs:
 ```
 public PlayableDirector playableDirector;
-
+public CinemachineVirtualCameraBase vCam1;
+public CinemachineVirtualCameraBase vCam2;
+    
 void Start()
 {
     TimelineTool timeline = new TimelineTool(playableDirector);
