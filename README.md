@@ -1,7 +1,7 @@
 # TimelineTool
 
 You can change Unity Timeline clips realtime very easy by TimelineTool.cs:
-```
+```C#
 public PlayableDirector playableDirector;
 public CinemachineVirtualCameraBase vCam1;
 public AnimationClip CubeAni1;
@@ -15,7 +15,7 @@ void Start()
 ```
 
 Set/Get PlayableDirector Bindings:
-```
+```C#
 public PlayableDirector playableDirector;
 
 void Start()
@@ -27,7 +27,7 @@ void Start()
 ```
 
 Get clip's duration:
-```
+```C#
 public PlayableDirector playableDirector;
 
 void Start()
